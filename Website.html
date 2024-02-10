@@ -5,10 +5,15 @@
 </head>
 <body>
 <h1>Meine Website</h1>
-<p>Test</p>
-
+<input id="InputZahl" type="number">
+  <button onclick="warEsRichtig">check</button>
+<p id="Ausgabe"></p>
   <script>
-    
+    const richtigeZahl = Math.floor(Math.random() * 9) + 1;
+    const Ausgabefeld = getElementById("Ausgabe");
+    function warEsRichtig() {
+
+    }
   </script>
 </body>
 </html>
