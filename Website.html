@@ -12,8 +12,9 @@
     const richtigeZahl = Math.floor(Math.random() * 9) + 1;
     const Ausgabefeld = getElementById("Ausgabe");
     function warEsRichtig() {
-
-    }
+if ( getElementById("InputZahl").innerHTML == richtigeZahl) {
+  getElementById("Ausgabe") = "richtig";
+    };
   </script>
 </body>
 </html>
