@@ -10,10 +10,10 @@
 <p id="Ausgabe"></p>
   <script>
     const richtigeZahl = Math.floor(Math.random() * 9) + 1;
-    const Ausgabefeld = getElementById("Ausgabe");
+    const Ausgabefeld = document.getElementById("Ausgabe");
     function warEsRichtig() {
-if ( getElementById("InputZahl").innerHTML == richtigeZahl) {
-  getElementById("Ausgabe") = "richtig";
+if ( document.getElementById("InputZahl").innerHTML == richtigeZahl) {
+  document.getElementById("Ausgabe") = "richtig";
     };
   </script>
 </body>
