@@ -6,14 +6,14 @@
 <body>
 <h1>Meine Website</h1>
 <input id="InputZahl" type="number">
-  <button onclick="warEsRichtig">check</button>
+  <button onclick="warEsRichtig"()>check</button>
 <p id="Ausgabe"></p>
   <script>
     const richtigeZahl = Math.floor(Math.random() * 9) + 1;
     const Ausgabefeld = document.getElementById("Ausgabe");
     function warEsRichtig() {
-if ( document.getElementById("InputZahl").innerHTML == richtigeZahl) {
-  document.getElementById("Ausgabe") = "richtig";
+if ( document.getElementById("InputZahl").value == richtigeZahl) {
+  Ausgabefeld.textContent= "richtig";
     };
   </script>
 </body>
